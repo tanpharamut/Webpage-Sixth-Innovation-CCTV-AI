@@ -1,14 +1,14 @@
-const toggleBtn = document.querySelector('.toggle_btn');
-const toggleBtnIcon = document.querySelector('.toggle_btn i');
-const dropDownMenu = document.querySelector('.dropdown_menu');
+// const toggleBtn = document.querySelector('.toggle_btn');
+// const toggleBtnIcon = document.querySelector('.toggle_btn i');
+// const dropDownMenu = document.querySelector('.dropdown_menu');
 
-toggleBtn.onclick = function () {
-    dropDownMenu.classList.toggle('open');
-    const isOpen = dropDownMenu.classList.contains('open');
+// toggleBtn.onclick = function () {
+//     dropDownMenu.classList.toggle('open');
+//     const isOpen = dropDownMenu.classList.contains('open');
 
-    toggleBtnIcon.classList.toggle('fa-xmark', isOpen);
-    toggleBtnIcon.classList.toggle('fa-bars', !isOpen);
-};
+//     toggleBtnIcon.classList.toggle('fa-xmark', isOpen);
+//     toggleBtnIcon.classList.toggle('fa-bars', !isOpen);
+// };
 
 let insidecard = document.querySelectorAll('.div-content');
 let sidebarLinks = document.querySelectorAll('.pd---content-inside-card.template-pages---sidebar ul li a');
@@ -45,7 +45,7 @@ window.onscroll = () => {
     }
 };
 
-window.addEventListener("scroll", function() {
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-})
+// window.addEventListener("scroll", function() {
+//     var header = document.querySelector("header");
+//     header.classList.toggle("sticky", window.scrollY > 0);
+// })
